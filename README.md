@@ -6,17 +6,15 @@
 
 ## 各包说明(每个关卡所在位置)
 
-test * ： 第 几 个头歌
- 
-如 test1 就是第一个头歌
- 
-L * ：第 几 关
- 
-如 L1 就是第一关
- 
-## 各实训具体位置说明
+- 每个实训一个package
+  - 在每个实训package下每一关也都有一个package
 
-- test1：Java语言基础综合实训（1）
+## How to be a Contributor?
+
+- Forking this repository
+- Making a pull request
+- Waiting your "pr" be Merged
+- Become a Contributor
 
 ## 免责声明
 
