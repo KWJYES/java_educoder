@@ -1,4 +1,4 @@
-package educoder.Java语言基础综合实训_1.第2关变量的使用;
+package educoder.Java语言基础综合实训_1.第2关_变量的使用;
 
 public class HelloVariable {
     public static void main(String[] args) {
