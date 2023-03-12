@@ -22,7 +22,7 @@
 
 ## more
 
-Thanks 贤(@nefelibetas) for the code:
+Thanks 贤([nefelibetas (MuQiaoYu) (github.com)](https://github.com/nefelibetas)) for the code:
 - Java面向对象 - 封装、继承和多态：
   - 第6关：final关键字的理解与使用
   - 第7关：接口
