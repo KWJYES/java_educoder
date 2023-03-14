@@ -26,7 +26,7 @@ Thanks Hj([msqtt (:P) (github.com)](https://github.com/msqtt)) for the code:
 
 - Java面向对象Java中的异常
     - 第1关：Java中的异常处理机制第
-    - 第2关：_捕获异常_
+    - 第2关：捕获异常
     - 第3关：抛出异常第
     - 第4关：自定义异常
 - Java面向对象_String类
