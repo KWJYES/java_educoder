@@ -1,4 +1,4 @@
-package step3;
+package educoder.Java面向对象_Java中的异常.第3关_抛出异常;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,21 +6,22 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Task {
-	/********* Begin *********/
-	//请在合适的部位添加代码
+    /********* Begin *********/
+    //请在合适的部位添加代码
     public static void main(String[] args) throws FileNotFoundException {
         test();
     }
+
     public static void test() throws FileNotFoundException {
         File file = new File("abc");
-        if(!file.exists()){		//判断文件是否存在
+        if (!file.exists()) {        //判断文件是否存在
             //文件不存在，则 抛出 文件不存在异常
             throw new FileNotFoundException("该文件不存在");
-        }else{
+        } else {
             FileInputStream fs = new FileInputStream(file);
         }
     }
-	/********* End *********/
+    /********* End *********/
 }
 
 

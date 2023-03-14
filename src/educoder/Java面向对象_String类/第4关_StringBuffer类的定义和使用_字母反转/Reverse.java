@@ -1,4 +1,4 @@
-package step4;
+package educoder.Java面向对象_String类.第4关_StringBuffer类的定义和使用_字母反转;
 
 public class Reverse {
     public static StringBuffer start(String data) {
@@ -10,7 +10,6 @@ public class Reverse {
             System.out.print(stringBuffer.reverse());
             System.out.print(" ");
         }
-       
         /********** End *********/
         return ans;
     }
