@@ -1,4 +1,4 @@
-package step3;
+package educoder.Java面向对象_文件类.第3关_文件查看器;
 
 import java.io.File;
 import java.util.Arrays;
