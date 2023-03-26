@@ -1,0 +1,52 @@
+ //Charger.java ,请完成Charger的完整定义，使它满足主方法的输出内容和格式的要求。
+ 
+ package guet;
+ //Charger.java ,请完成Charger的完整定义，使它满足主方法的输出内容和格式的要求。
+ public class Charger implements ICharger {
+    /**
+	 * 将充电器连接到交流电源上
+	 * @param voltage 交流电电压
+	 * @return 当voltage在[200-240]V范围时，返回true,否则返回false
+	 */
+    @Override
+	public boolean connectPowerline(float voltage){
+        if(voltage>=200&&voltage<=240)
+        return true;
+        else{
+            System.out.println("交流电压不在[200,240]范围,无法充电");
+            return false;
+        }
+        
+    }
+	/**
+	 * 关电，停止充电
+	 */
+    @Override
+	public void powerOff(){
+        System.out.println("已充电到100%");
+        System.out.println("充电器停止充电");
+    }
+	/**
+	 * 给手机充电，调用该方法1次，充电5%
+	 * @param currentEnergy 手机电池现有电量，[0-100]间的数
+	 * 若电量为100（满电），则停止充电，自动调用powerOff
+	 * @return 充电后的电池电量，若currentEnergy为10，则返回10+5=15
+	 */
+    @Override
+	public int doCharge(int currentEnergy){
+        if(currentEnergy<100){
+            currentEnergy =currentEnergy+5;
+            if(currentEnergy>100){
+                powerOff();
+                currentEnergy =100;
+            }
+            else
+            System.out.println("已充电到"+currentEnergy+"%");
+        }
+        else
+ System.out.println("充电器停止充电");
+        return currentEnergy;
+    }
+     
+ }
+ 
