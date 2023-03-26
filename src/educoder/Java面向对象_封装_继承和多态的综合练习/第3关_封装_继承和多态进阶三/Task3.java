@@ -1,4 +1,4 @@
-package case3;
+package educoder.Java面向对象_封装_继承和多态的综合练习.第3关_封装_继承和多态进阶三;
 
 import java.util.Scanner;
 

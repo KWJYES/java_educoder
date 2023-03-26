@@ -1,4 +1,4 @@
-package step2;
+package educoder.Java面向对象_String类.第2关_substring方法与indexOf方法的使用_姓名查找;
 
 import java.util.Scanner;
 

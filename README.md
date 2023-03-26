@@ -20,9 +20,19 @@
 
 本项目仅用于个人学习使用
 
-## more
+## More
+
+Thanks Hj([msqtt (:P) (github.com)](https://github.com/msqtt)) for the code:
+
+- Java面向对象Java中的异常
+- Java面向对象_String类
+- Java面向对象–封装、继承和多态的综合练习
+- Java面向对象–文件类
+
+
 
 Thanks 贤([nefelibetas (MuQiaoYu) (github.com)](https://github.com/nefelibetas)) for the code:
+
 - Java面向对象 - 封装、继承和多态：
   - 第6关：final关键字的理解与使用
   - 第7关：接口

@@ -1,11 +1,9 @@
-package step1;
+package educoder.Java面向对象_文件类.第1关_创建文件;
 
 
 import java.io.File;
-import java.io.FileFilter;
 import java.io.IOException;
-import java.util.Scanner;
-import java.util.function.Consumer;
+
 public class Task {
 	/********* Begin *********/
 	public void createFile(String filename){

@@ -1,4 +1,4 @@
-package step4;
+package educoder.Java面向对象_文件类.第4关_图片查看器;
 
 import java.io.File;
 import java.io.FileFilter;

@@ -1,4 +1,4 @@
-package step1;
+package educoder.Java面向对象_String类.第1关_length方法与compareTo方法的使用_花名册;
 
 import java.util.Scanner;
 
