@@ -38,7 +38,7 @@ Thanks 贤([nefelibetas (MuQiaoYu) (github.com)](https://github.com/nefelibetas)
   - 第8关：什么是多态，怎么使用多态
 
 
-Thanks a海g([nefelibetas (MuQiaoYu) (github.com)](https://github.com/nefelibetas)) for the code:
+Thanks a海g([2750056996 (github.com)](https://github.com/2750056996)) for the code:
 
 - 面向对象编程(三)︰接口与实现
 
